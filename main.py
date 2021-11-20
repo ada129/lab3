@@ -1,5 +1,5 @@
 #18.1
-"""def print_shurg_smile():
+def print_shurg_smile():
     print("¯\_(ツ)_/¯")
 def print_ktulhu_smile():
     print("{:€")
@@ -27,13 +27,6 @@ def golden_radio(i):
         st=tec-st
     print(tec/st)
 golden_radio()
-?#18.5
-def equation(a,b):
-    x1=float(a[0])
-    y1=float(a[2])
-    x2=float(b[0])
-    y2=float(b[2])
-equation("1;2.1","2;4")
 #18.6
 def line(s,t):
     x=float(t[0])
@@ -54,7 +47,7 @@ def month_name(n,lan):
     else:
         print(s1[n - 1])
 month_name(2,"ru")
-#19.3"""
+#19.3
 def roots_of_quadratic_equation(a,b,c):
     c1=b*b-4*a*c
     if c1<0:
@@ -63,7 +56,6 @@ def roots_of_quadratic_equation(a,b,c):
         return (-b/(2*a))
     else:
         return ((-b+c1**(1/2))/(2*a),(-b-c1**(1/2))/(2*a))
-"""
 print(roots_of_quadratic_equation(1,2,1))
 #20.1
 text=""
@@ -164,7 +156,7 @@ def swap(first, second):
     return first,second
 first=[1,2,4]
 second=[3,5,6]
-first,second=swap(first,second)"""
+first,second=swap(first,second)
 #22.4
 def solve(*coefficients):
     if len(coefficients)==0 or len(coefficients)>3:
@@ -177,4 +169,6 @@ def solve(*coefficients):
         else:
            return roots_of_quadratic_equation(*coefficients)
 print(solve(1,-3,2))
+#22.4
+print(solve(input()))
 
